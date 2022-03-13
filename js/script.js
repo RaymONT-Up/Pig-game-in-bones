@@ -77,7 +77,6 @@ btnHold.addEventListener("click", () => {
         .querySelector(`.player--${currentPlayer}`)
         .classList.remove("player--active");
       document.querySelector(`#current--${currentPlayer}`).textContent = 0;
-      diceElement.classList.add("hidden");
     } else {
       changeCurrentPlayer();
     }
