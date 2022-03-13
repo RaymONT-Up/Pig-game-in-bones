@@ -116,3 +116,6 @@ function modalWindowCloseOpen() {
 }
 btnReference.addEventListener("click", modalWindowCloseOpen);
 btnReferenceClose.addEventListener("click", modalWindowCloseOpen);
+document
+  .querySelector(".overlay")
+  .addEventListener("click", modalWindowCloseOpen);
